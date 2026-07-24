@@ -486,8 +486,8 @@ with st.sidebar:
 
     model_name = st.selectbox(
         "🤖 Model Gemini",
-        ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"],
-        help="2.0-flash: tercepat | 1.5-pro: paling akurat",
+        ["gemini-3.5-flash", "gemini-3.1-pro", "gemini-3.1-flash-lite"],
+        help="3.5-flash: tercepat | 3.1-pro: paling akurat",
     )
 
     st.markdown("---")
